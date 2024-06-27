@@ -5,10 +5,9 @@ push:
     branches: [ main ]
 
 jobs:
- test:
+test:
     name: Test
     runs-on: ubuntu-latest
-
     steps:
     - uses: actions/checkout@v3
     - uses: actions/setup-node@v3
