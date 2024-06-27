@@ -5,7 +5,7 @@ push:
     branches: [ main ]
 
 jobs:
-test:
+ test:
     name: Test
     runs-on: ubuntu-latest
 
